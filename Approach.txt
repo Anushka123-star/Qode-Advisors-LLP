@@ -1,0 +1,40 @@
+# My Approach: Twitter Scraper & Data Processor
+
+## What I Wanted to Do
+
+The goal was: grab tweets, clean them up, and store them so I can analyze them later.
+
+## How I Went About It
+
+I split the whole thing into three parts:
+
+1. **Collecting Tweets** – Using `snscrape` and `Tweepy` to pull tweets.
+2. **Processing Data** – Cleaning it up and organizing it nicely.
+3. **Storing & Analyzing** – Saving in Parquet format so it’s fast to load, then doing some basic analysis.
+
+## Step-by-Step
+
+### 1. Collecting Tweets
+
+* Set up queries like hashtags, usernames, or date ranges.
+* Pulled tweets using `snscrape`.
+* Used threads (`ThreadPoolExecutor`) to speed things up.
+* Added some error handling so it doesn’t crash if a call fails or the network is slow.
+
+### 2. Processing Data
+
+* Removed duplicates, URLs, mentions, and weird characters.
+* Structured everything in a table format.
+* Used `pandas` for most of the heavy lifting.
+
+### 3. Storing & Analyzing
+
+* Saved data in **Parquet** format with `pyarrow` – it’s fast and efficient.
+* Did basic analysis like counting tweets per day.
+* Everything’s ready to use for charts or deeper analysis later.
+
+## Extra Things I Added
+* Logging with Python’s `logging` module to keep track of progress.
+
+## Extras
+* I have used free tier for twitter's API. For best results, please use a paid version. 
