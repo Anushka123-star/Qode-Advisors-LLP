@@ -144,16 +144,3 @@ This pipeline is designed to scale:
 * 10x more tweets can be handled with the same approach.
 * Can be extended to streaming (Kafka + Spark/Flink).
 * Replace snscrape with Selenium + rotating user agents if scraping restrictions tighten.
-
----
-
-## Deliverables
-
-* Complete, production-ready codebase with modular structure.
-* `requirements.txt` and reproducible environment.
-* Example outputs: raw parquet, processed parquet, aggregated signals, plots.
-* Documentation (this README) and inline docstrings.
-
-
-Do you also want me to **add a "Future Improvements" section** at the end of the README (things like Docker, real-time dashboards, advanced NLP models), so it looks even more forward-looking when Qode reviews it?
-```
