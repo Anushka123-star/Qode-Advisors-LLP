@@ -121,9 +121,6 @@ t_minute              | signal_mean | ci_lo | ci_hi | n
 #### Visualization
 
 Automatically generated and saved under `data/processed/`.
-
-![Composite Sentiment Signal](data/processed/sample_signal_plot.png)
-
 ---
 
 ## Technical Highlights
