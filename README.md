@@ -1,11 +1,4 @@
-Got it — here’s the cleaned-up **README.md with no emojis**. It’s still professional, detailed, and written in first person as if you authored it:
-
----
-
-```markdown
 # Twitter Market Sentiment Signals (Qode Assignment)
-
-This repository contains my solution to the **Technical Assignment – Software Developer Position @ Qode Advisors LLP**.  
 I built a real-time data collection and analysis pipeline that scrapes Twitter/X for Indian stock market discussions and converts them into quantitative sentiment signals.
 
 ---
